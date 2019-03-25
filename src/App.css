@@ -1,0 +1,256 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+f   ont-size: 1.5em;
+}
+
+.App-intro {
+f   ont-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.battery-text {
+    color: white;
+    /**filter: invert(1) grayscale(1) contrast(9);*/
+    mix-blend-mode: difference;
+    line-height: 50px;
+}
+
+.battery-background {
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid #fff;
+}
+
+.battery {
+	width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px solid #fff;
+
+}
+.battery:after {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 112px;
+    content: "";
+    width: 10px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+
+.sensor-map {
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.trash {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.icon-trash {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-trash .trash-lid {
+    width: 62%;
+    height: 10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -31%;
+    top: 10.5%;
+    background-color: #000;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.icon-trash .trash-lid:after {
+    content: "";
+    width: 26%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -13%;
+    margin-top: -10%;
+    background-color: inherit;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+.icon-trash .trash-container {
+    width: 56%;
+    height: 65%;
+    position: absolute;
+    left: 50%;
+    margin-left: -28%;
+    bottom: 10%;
+    background-color: #000;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.icon-trash .trash-container:after {
+    content: "";
+    width: 110%;
+    height: 12%;
+    position: absolute;
+    left: 50%;
+    margin-left: -55%;
+    top: 0;
+    background-color: inherit;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+/*trash lines for the trash bin*/
+.icon-trash .trash-line-1 {
+    width: 8%;
+    height: 50%;
+    position: absolute;
+    left: 34%;
+    margin-left: -2%;
+    bottom: 17%;
+    background-color: #212529;
+}
+
+.icon-trash .trash-line-2 {
+    width: 8%;
+    height: 50%;
+    position: absolute;
+    left: 48%;
+    margin-left: -2%;
+    bottom: 17%;
+    background-color: #212529;
+}
+
+.icon-trash .trash-line-3 {
+    width: 8%;
+    height: 50%;
+    position: absolute;
+    left: 62%;
+    margin-left: -2%;
+    bottom: 17%;
+    background-color: #212529;
+}
+
+/*the trash lines will be covered depending on the filling of the Wastebin*/
+.icon-trash .trash-filling {
+    width: 36%;
+    position: absolute;
+    left: 34%;
+    margin-left: -2%;
+    bottom: 17%;
+}
+
+.trash-text {
+    display: block;
+    margin: 0;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.react-datepicker__time {
+    white-space: nowrap;
+}
+
+.react-datepicker__time-container {
+    width: 150px;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+    width: 100% !important;
+}
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+    right: 170px !important;
+}
+
+.rbc-btn-group > button {
+    background-color: white;
+}
+
+.rbc-day-slot .rbc-time-slot {
+    border-top: 0px solid #f7f7f7 !important;
+}
+
+.rbc-day-bg + .rbc-day-bg {
+    border-left: 0px solid #DDD !important;
+}
+
+.rbc-header + .rbc-header {
+    border-left: 0px solid #DDD !important;
+}
+
+.rbc-today {
+    background-color: #464646 !important;
+}
+
+.toggle{
+    color: #445c72;
+    text-decoration: none;
+}
+
+.toggle:hover{
+    color: #56738e;
+}
+
+.boolean-center {
+    width: 100%;
+    text-align: center;
+}
+.boolean-left {
+    width: 100%;
+}

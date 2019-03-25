@@ -1,0 +1,48 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.19",
+    "bootstrap": "^4.1.1",
+    "d3": "^5.4.0",
+    "jquery": "^1.12.4",
+    "leaflet": "^1.2.0",
+    "popper.js": "^1.12.3",
+    "prop-types": "^15.6.2",
+    "rc-slider": "^8.6.0",
+    "react": "^16.1.1",
+    "react-big-calendar": "^0.19.2",
+    "react-datepicker": "^0.61.0",
+    "react-dom": "^16.1.1",
+    "react-editable-json-tree": "^2.2.0",
+    "react-leaflet": "^1.9.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "react-select": "^1.2.1",
+    "react-switch": "^3.0.4",
+    "react-toastify": "^4.1.0",
+    "react-tooltip": "^3.4.0",
+    "react-treebeard": "^2.1.0",
+    "react-vis": "^1.9.3",
+    "throttle-debounce": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "fabi\u001b[D\u001b[D\u001b[F",
+  "license": "ISC",
+  "proxy": "http://localhost:8888/"
+}
